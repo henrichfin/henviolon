@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  font-family: 'Roboto';
+  font-family: "Roboto";
 }
 
 :root {
@@ -23,7 +23,10 @@ body {
 span {
   color: var(--button-color);
 }
-
+.logo {
+  margin-top: -180px;
+  margin-left: -100px;
+}
 h1 {
   padding-top: 200px;
   padding-bottom: 40px;
@@ -95,9 +98,8 @@ h3 {
   z-index: 100;
 }
 
-.header img{
-width: 150px;
-
+.header img {
+  width: 150px;
 }
 
 .navbar {
@@ -143,7 +145,7 @@ width: 150px;
   margin-top: 30px;
 }
 
-.btn a{
+.btn a {
   text-decoration: none;
   color: var(--white-color);
   font-weight: 500;

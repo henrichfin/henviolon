@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  font-family: 'Roboto';
+  font-family: "Roboto";
 }
 :root {
   --hover-color: #4c4f54;
@@ -11,7 +11,6 @@
   --button-color: #3ab8a3;
   --black-color: #00000011;
 }
-
 
 span {
   color: rgba(0, 181, 148, 255);
@@ -78,15 +77,14 @@ h1 {
   width: 450px;
   height: 450px;
   margin-top: 40px;
-  margin-left: 100px;
+  margin-left: 30px;
   border-radius: 5px;
- 
 }
 
 .text {
- text-align: center;
- position: relative;
- top: 20px;
+  text-align: center;
+  position: relative;
+  top: 20px;
   width: 400px;
   height: 400px;
   padding-left: 50px;
@@ -95,12 +93,10 @@ h1 {
   line-height: 2;
 }
 
-.text h1{
+.text h1 {
   margin-top: -10px;
-
-  
 }
-.text p{
+.text p {
   font-size: 15.5px;
   margin-top: -40px;
 }
@@ -117,20 +113,17 @@ h1 {
   margin-left: -100px;
 }
 
-.btn a{
+.btn a {
   text-decoration: none;
   color: var(--bg-color);
 }
 
 .header h2 {
   font-weight: 900;
-
-
 }
 
-.image img{
-  margin-top: 48px;
-  height: 450px;
+.image img {
+  margin-top: 30px;
+  height: 470px;
   width: 450px;
-
 }
