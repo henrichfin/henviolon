@@ -24,14 +24,14 @@ span {
   color: var(--button-color);
 }
 .logo {
-  margin-top: -180px;
-  margin-left: -100px;
+  margin-top: -200px;
+  margin-left: -130px;
 }
 h1 {
   padding-top: 200px;
   padding-bottom: 40px;
   font-weight: 700px;
-  font-size: 350%;
+  font-size: 50px;
   padding-left: 130px;
 }
 
@@ -102,17 +102,21 @@ h3 {
   width: 150px;
 }
 
-.navbar {
-  padding-right: -100px;
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 40px;
 }
-.navbar a {
-  font-size: 1.1rem;
-  margin-left: 1.5rem;
-  font-weight: 200;
-  transition: 0.3 ease;
+
+nav ul li a {
   text-decoration: none;
-  color: black;
-  font-weight: 500;
+  color: #000;
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+
+nav ul li a:hover {
+  color: #3ab8a3;
 }
 
 .text-container {

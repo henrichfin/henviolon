@@ -1,105 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="3Page.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    
-<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <title>Document</title>
-</head>
-<body>
-    <div class="note">
-        <h2>Note<span>It!</span></h2>
-        <div class="all"></div>
-        <ul>
-            <li><span><i class='bx bx-bookmarks'></i></span>All Notes</li>
-            <li><span><i class='bx bx-heart'></i></span>Favorites</li>
-            <li><span><i class='bx bx-trash'></i></span>Archives</li>
-            <li><a href="2Page.html"><span><i class='bx bx-log-out'></i></span>Logout</a></li>
-        </ul>
-        <div class="user">
-            <img src="img/propile.jpg" id="image2">
-            <h3>Hi Payla!</h3>
-            <p>Welcome back.</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Note It!</title>
+    <link rel="stylesheet" href="3Page.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="container">
+        <div class="side">
+          <div class="logo">
+            <h1>Note<span>It!</span></h1>
+          </div>
+          <nav>
+            <ul>
+              <li>
+                <a href="#"><i class="fas fa-sticky-note"></i>All Notes</a>
+              </li>
+              <li>
+                <a href="#"><i class="fas fa-heart"></i> Favorites</a>
+              </li>
+              <li>
+                <a href="#"><i class="fas fa-box"></i> Archives</a>
+              </li>
+              <li>
+                <a href="2Page.html"><i class="fas fa-power-off"></i> Logout</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="user">
+            <div class="name"></div>
+            <p>Hi Henrich!<br />Welcome back.</p>
+          </div>
         </div>
+        <div class="main-content">
+          <header class="header">
+            <h2>All Notes</h2>
+            <span class="green-line"></span>
+            <div class="search">
+              <input type="text" placeholder="Search" />
+
+              <button class="add-note">
+                <i class="fas fa-plus-circle" id="plus"> Add Notes</i>
+              </button>
+            </div>
+          </header>
+          <div class="notes-grid">
+            <div class="note-card">
+              <h3>
+                Notes 1
+                <select>
+                  <option>...</option>
+                </select>
+              </h3>
+              <p>
+                This is a sample notes printed here.<br />
+                <br />Testing Notes are printed here.....
+              </p>
+              <div class="note-footer">
+                <span class="dot yellow"></span>
+                <span class="note-date">March 03, 2024</span>
+              </div>
+            </div>
+            <div class="note-card">
+              <h3>
+                Notes 1
+                <select>
+                  <option>...</option>
+                </select>
+              </h3>
+              <p>
+                This is a sample notes printed here.<br />
+                <br />Testing Notes are printed here.....
+              </p>
+              <div class="note-footer">
+                <span></span>
+                <span class="note-date">March 03, 2024</span>
+              </div>
+            </div>
+            <div class="note-card">
+              <h3>
+                Notes 1
+                <select>
+                  <option>...</option>
+                </select>
+              </h3>
+              <p>
+                This is a sample notes printed here.<br />
+                <br />Testing Notes are printed here.....
+              </p>
+              <div class="note-footer">
+                <span></span>
+                <span class="note-date">March 03, 2024</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="notes-grid">
+            <div class="note-card">
+              <h3>
+                Notes 2
+                <select>
+                  <option>...</option>
+                </select>
+              </h3>
+              <p>
+                This is a sample notes printed here.<br />
+                <br />Testing Notes are printed here.....
+              </p>
+              <div class="note-footer">
+                <span></span>
+                <span class="note-date">March 03, 2024</span>
+              </div>
+            </div>
+            <div class="note-card">
+              <h3>
+                Notes 2
+                <select>
+                  <option>...</option>
+                </select>
+              </h3>
+              <p>
+                This is a sample notes printed here.<br />
+                <br />Testing Notes are printed here.....
+              </p>
+              <div class="note-footer">
+                <span></span>
+                <span class="note-date">March 03, 2024</span>
+              </div>
+            </div>
+            <div class="note-card">
+              <h3>
+                Notes 2
+                <select>
+                  <option>...</option>
+                </select>
+              </h3>
+              <p>
+                This is a sample notes printed here.<br />
+                <br />Testing Notes are printed here.....
+              </p>
+              <div class="note-footer">
+                <span class="dot yellow"></span>
+                <span class="note-date">March 03, 2024</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="notes-grid">
+            <div class="note-card">
+              <h3>
+                Notes 3
+                <select>
+                  <option>...</option>
+                </select>
+              </h3>
+              <p>
+                This is a sample notes printed here.<br />
+                <br />Testing Notes are printed here.....
+              </p>
+              <div class="note-footer">
+                <span></span>
+                <span class="note-date">March 03, 2024</span>
+              </div>
+            </div>
+            <div class="note-card">
+              <h3>
+                Notes 3
+                <select>
+                  <option>...</option>
+                </select>
+              </h3>
+              <p>
+                This is a sample notes printed here.<br />
+                <br />Testing Notes are printed here.....
+              </p>
+              <div class="note-footer">
+                <span class="dot yellow"></span>
+                <span class="note-date">March 03, 2024</span>
+              </div>
+            </div>
+            <div class="note-card">
+              <h3>
+                Notes 3
+                <select>
+                  <option>...</option>
+                </select>
+              </h3>
+              <p>
+                This is a sample notes printed here.<br />
+                <br />Testing Notes are printed here.....
+              </p>
+              <div class="note-footer">
+                <span></span>
+                <span class="note-date">March 03, 2024</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <header>
-        <h1>All Notes</h1>
-        <div class="input-group">
-         <input type="text" id="username" placeholder="  Search" required>
-        </div>
-        <i class='bx bx-plus-circle' id="plus"> Add Notes</i>
-    </header>
-    <div class="wrapper">
-        <div class="container">
-            <div class="notch">
-                <h3>Note 1</h3>
-                <p id="p1">Excel kaba? Kasi when u inhale you excel.</p>
-                <p id="p2">March 19,2003</p>
-            </div>
-            <div class="notch">
-                <h3>Note 1</h3>
-                <p id="p1">Akong Motto in life are Mottotoy og Mottowad.</p>
-                <p id="p2">March 19,2003</p>
-            </div>
-            <div class="notch">
-                <h3>Note 1</h3>
-                <p id="p1">Miss, alam mo ba? Hindi tayo tao,
-                     hindi tayo hayop, at hindi rin tayo halaman,
-                      bagay tayo. Bagay.</p>
-                <p id="p2">March 19,2003</p>
-            </div>
-            <div class="notch">
-                <h3>Note 1</h3>
-                <p id="p1">Alarm clock ka ba?
-                     Ginising mo kasi ang natutulog kong puso.</p>
-                <p id="p2">March 19,2003</p>
-            </div>
-            <div class="notch">
-                <h3>Note 1</h3>
-                <p id="p1">Pulis ka ba? Kasi nahuli mo ang puso ko.</p>
-                <p id="p2">March 19,2003</p>
-            </div>
-            <div class="notch">
-                <h3>Note 1</h3>
-                <p id="p1">Para kang bomba. Ang lakas ng putok mo.</p>
-                <p id="p2">March 19,2003</p>
-            </div>
-            <div class="notch">
-                <h3>Note 1</h3>
-                <p id="p1">Bangin ka ba? Nahulog kasi ako sa'yo.</p>
-                <p id="p2">March 19,2003</p>
-            </div>
-            <div class="notch">
-                <h3>Note 1</h3>
-                <p id="p1">Kung posporo ka at posporo din ako, eh di MATCH tayo!</p>
-                <p id="p2">March 19,2003</p>
-            </div>
-            <div class="notch">
-                <h3>Note 1</h3>
-                <p id="p1">Itim na Nazareno ka ba? Pahalik naman.</p>
-                <p id="p2">March 19,2003</p>
-            </div>
-            <div class="notch">
-                <h3>Note 1</h3>
-                <p id="p1">Akala ko nasa Jollibee ang saya, nasayo pala ohaha.</p>
-                <p id="p2">March 19,2003</p>
-            </div>
-            <div class="notch">
-                <h3>Note 1</h3>
-                <p id="p1">Kabuton ko ang buwan og e sampak sa imong bugan.</p>
-                <p id="p2">March 19,2003</p>
-            </div>
-            <div class="notch">
-                <h3>Note 1</h3>
-                <p id="p1">Ikaw ang pato, patotoya.</p>
-                <p id="p2">March 19,2003</p>
-            </div>
-        </div>
-    </div>
-</body>
+  </body>
 </html>
