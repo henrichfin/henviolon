@@ -154,3 +154,16 @@ nav ul li a:hover {
   color: var(--white-color);
   font-weight: 500;
 }
+@media (max-width: 480px) {
+  .header h2 {
+    font-size: 1.5rem;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+
+  .image img {
+    height: auto;
+  }
+}
